@@ -1,0 +1,117 @@
+/* .hom{
+    height: 100%;
+} */
+
+.parallax {
+    /* The image used */
+    background-image: url("../../../public/img/fi.png");
+  
+    /* Full height */
+    height:1000px ;
+    position: relative;
+     
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .ne_1{
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+    height: 300px;
+    width: 900px;
+    background-color:#333;
+    font-size:30px;
+    color: white;
+    border-radius: 15px;
+    margin: auto;
+    
+    /* text-align:center ; */
+    padding: 30px 5px 50px 5px;
+    opacity: 0.8;
+    
+   
+  }
+  .ne_2{
+    background-image: url("../../../public/img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+    height: 900px;
+    margin-bottom: 5px;
+ padding-top: 30%;
+ /* text-align: center; */
+  }
+  .ne_3{
+    width: 100%;
+    height: 500px;
+
+  }
+  .WhoWe{
+  
+    display: flex;
+    /* flex-wrap: nowrap; */
+    min-height: 380px;
+    height: 900px; ;
+  }
+  .WhoWeImg{
+    display: flex;
+  }
+  .stam{
+    display: flex;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50% , -50% );
+    border-radius: 45px;
+    margin: auto;
+    text-align:right ;
+    width: 900px;
+    height: 350px;
+    color: white;
+    font-size: 19px;
+    /* padding-right: 20px; */
+    padding:20px 30px;
+    line-height: 1.6;
+  
+    background-color: #333;
+    /* opacity: 0.5; */
+  }
+  .WhoWeAre{
+    position: absolute;
+    right: 0;
+    /* margin: 20px; */
+    /* max-width: 300px; */
+    padding: 16px;
+    padding: 50px;
+    text-align: right;
+    height: 900px;
+    width: 670px; ;
+    background-color: black;
+    color: white;
+  }
+
+
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    /* position: fixed; */
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }

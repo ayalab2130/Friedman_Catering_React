@@ -1,0 +1,33 @@
+.liForShowProduct{
+    list-style-type: none;
+}
+.card{
+    
+    /* background-color: black;  */
+    background-color: rgba(0,0,0, 0.9);
+
+   /* opacity: 0.7; */
+}
+.parit_show:hover{
+    border: 1px white solid;
+}
+
+.show_products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.isSmallBasket{
+    border: 1px red solid;
+}
+.parit_show1{
+    padding:6px;
+
+}
+/* .show_products1{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+} */
+
